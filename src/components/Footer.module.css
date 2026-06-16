@@ -1,0 +1,23 @@
+.footer { background: var(--ink); color: var(--white); padding: 60px 0 0; }
+.inner { max-width: var(--max-w); margin: 0 auto; padding: 0 24px 48px; display: grid; grid-template-columns: 240px 1fr; gap: 60px; }
+.brand {}
+.logo { font-family: var(--font-display); font-size: 22px; font-weight: 600; letter-spacing: 0.18em; margin-bottom: 12px; }
+.tagline { font-size: 13px; color: rgba(255,255,255,0.5); line-height: 1.7; }
+.cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+.col {}
+.colTitle { font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); font-weight: 500; margin-bottom: 16px; }
+.col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.colLink { font-size: 13px; color: rgba(255,255,255,0.55); transition: color var(--transition); }
+.colLink:hover { color: var(--white); }
+.bottom { border-top: 1px solid rgba(255,255,255,0.1); padding: 20px 24px; max-width: var(--max-w); margin: 0 auto; display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: rgba(255,255,255,0.35); flex-wrap: wrap; gap: 12px; }
+.bottomLinks { display: flex; gap: 24px; }
+.bottomLinks a { color: rgba(255,255,255,0.35); transition: color var(--transition); }
+.bottomLinks a:hover { color: rgba(255,255,255,0.7); }
+@media (max-width: 768px) {
+  .inner { grid-template-columns: 1fr; gap: 40px; }
+  .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 480px) {
+  .cols { grid-template-columns: 1fr; }
+  .bottom { flex-direction: column; text-align: center; }
+}

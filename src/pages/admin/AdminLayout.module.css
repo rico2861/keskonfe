@@ -1,0 +1,53 @@
+.shell { display: flex; min-height: 100vh; background: var(--cream-mid); }
+.authWall { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; text-align: center; padding: 24px; }
+.authBtn { padding: 12px 28px; background: var(--ink); color: var(--white); font-size: 13px; border-radius: var(--radius); }
+.authHint { font-size: 12px; color: var(--ink-light); max-width: 300px; }
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  flex-shrink: 0;
+  background: var(--ink);
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  transition: width var(--transition);
+}
+.shellCollapsed .sidebar { width: 60px; }
+
+.sidebarTop { display: flex; align-items: center; justify-content: space-between; padding: 20px 16px; border-bottom: 1px solid rgba(255,255,255,0.08); flex-shrink: 0; }
+.logo { font-family: var(--font-display); font-size: 18px; font-weight: 600; letter-spacing: 0.18em; color: var(--white); overflow: hidden; white-space: nowrap; }
+.collapseBtn { display: flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 50%; color: rgba(255,255,255,0.4); transition: color var(--transition), background var(--transition); flex-shrink: 0; }
+.collapseBtn:hover { color: var(--white); background: rgba(255,255,255,0.08); }
+
+.nav { flex: 1; padding: 12px 8px; display: flex; flex-direction: column; gap: 2px; overflow-y: auto; }
+.navItem { display: flex; align-items: center; gap: 10px; padding: 10px 8px; border-radius: var(--radius-lg); color: rgba(255,255,255,0.55); font-size: 13px; white-space: nowrap; overflow: hidden; transition: background var(--transition), color var(--transition); }
+.navItem:hover { background: rgba(255,255,255,0.07); color: var(--white); }
+.navActive { background: rgba(201,168,76,0.18) !important; color: var(--gold) !important; }
+.navIcon { flex-shrink: 0; display: flex; }
+.shellCollapsed .navItem { padding: 10px; justify-content: center; }
+
+.sidebarBottom { padding: 12px 8px; border-top: 1px solid rgba(255,255,255,0.08); flex-shrink: 0; }
+.adminUser { display: flex; align-items: center; gap: 10px; padding: 10px 8px; margin-bottom: 4px; }
+.adminAvatar { width: 32px; height: 32px; border-radius: 50%; background: rgba(201,168,76,0.25); color: var(--gold); font-size: 12px; font-weight: 600; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.adminName { font-size: 13px; color: var(--white); font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.adminRole { font-size: 10px; color: var(--gold); letter-spacing: 0.1em; text-transform: uppercase; }
+.logoutBtn { display: flex; align-items: center; gap: 8px; padding: 8px 8px; width: 100%; font-size: 12px; color: rgba(255,255,255,0.4); border-radius: var(--radius); transition: color var(--transition), background var(--transition); white-space: nowrap; }
+.logoutBtn:hover { color: var(--white); background: rgba(255,255,255,0.06); }
+
+/* Content */
+.content { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+.topBar { height: 52px; background: var(--white); border-bottom: 1px solid var(--cream-dark); display: flex; align-items: center; justify-content: space-between; padding: 0 28px; flex-shrink: 0; }
+.topBarLeft {}
+.storeFront { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--ink-light); transition: color var(--transition); }
+.storeFront:hover { color: var(--ink); }
+.topBarRight {}
+.topBarDate { font-size: 12px; color: var(--ink-light); }
+.main { flex: 1; padding: 28px; overflow-y: auto; }
+
+@media (max-width: 900px) {
+  .sidebar { display: none; }
+  .main { padding: 16px; }
+}

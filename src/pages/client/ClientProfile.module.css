@@ -1,0 +1,38 @@
+.page { display: flex; flex-direction: column; gap: 20px; }
+.pageHeader { display: flex; align-items: center; justify-content: space-between; }
+.title { font-family: var(--font-display); font-size: 26px; font-weight: 400; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; }
+.card { background: var(--white); border: 1px solid var(--cream-dark); border-radius: var(--radius-lg); padding: 24px; }
+.cardTitle { font-family: var(--font-display); font-size: 18px; font-weight: 400; margin-bottom: 20px; }
+.form { display: flex; flex-direction: column; gap: 14px; }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.field { display: flex; flex-direction: column; gap: 6px; }
+.label { font-size: 10px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-mid); }
+.input { height: 42px; padding: 0 12px; font-size: 14px; color: var(--ink); border: 1px solid var(--cream-dark); border-radius: var(--radius); background: var(--cream); outline: none; transition: border-color var(--transition); }
+.input:focus { border-color: var(--ink); background: var(--white); }
+.saveBtn { height: 44px; background: var(--ink); color: var(--white); font-size: 13px; font-weight: 500; letter-spacing: 0.06em; border-radius: var(--radius); transition: background var(--transition); }
+.saveBtn:hover { background: var(--ink-mid); }
+.saveBtnSuccess { background: var(--gold-dark) !important; }
+
+/* Addresses */
+.addAddrBtn { padding: 9px 18px; font-size: 13px; border: 1px solid var(--ink); color: var(--ink); border-radius: var(--radius); font-weight: 500; transition: background var(--transition), color var(--transition); }
+.addAddrBtn:hover { background: var(--ink); color: var(--white); }
+.addrGrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.addrCard { background: var(--white); border: 1px solid var(--cream-dark); border-radius: var(--radius-lg); padding: 20px; position: relative; }
+.addrCardDefault { border-color: var(--gold); }
+.addrCardNew { background: var(--white); border: 1.5px dashed var(--cream-dark); border-radius: var(--radius-lg); padding: 20px; display: flex; flex-direction: column; gap: 10px; }
+.defaultBadge { position: absolute; top: 12px; right: 12px; font-size: 10px; font-weight: 600; padding: 3px 8px; background: var(--gold-light); color: var(--gold-dark); border-radius: 10px; letter-spacing: 0.04em; }
+.addrLabel { font-size: 14px; font-weight: 600; color: var(--ink); margin-bottom: 8px; }
+.addrText { font-size: 13px; color: var(--ink-mid); line-height: 1.6; }
+.addrActions { display: flex; gap: 14px; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--cream-mid); }
+.addrAction { font-size: 12px; color: var(--ink-light); text-decoration: underline; text-underline-offset: 2px; transition: color var(--transition); }
+.addrAction:hover { color: var(--ink); }
+.newAddrBtns { display: flex; gap: 10px; }
+.cancelNewBtn { flex: 1; height: 40px; border: 1px solid var(--cream-dark); color: var(--ink-mid); font-size: 13px; border-radius: var(--radius); }
+.saveBtn { flex: 1; }
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; }
+  .addrGrid { grid-template-columns: 1fr; }
+  .row { grid-template-columns: 1fr; }
+}

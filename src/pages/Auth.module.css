@@ -1,0 +1,165 @@
+.page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+}
+.imagePane {
+  position: relative;
+  overflow: hidden;
+}
+.imagePane img { width: 100%; height: 100%; object-fit: cover; }
+.imagePaneOverlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(26,26,24,0.7) 0%, rgba(26,26,24,0.2) 60%);
+}
+.imagePaneContent {
+  position: absolute;
+  bottom: 48px; left: 48px; right: 48px;
+}
+.imagePaneQuote {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-style: italic;
+  color: var(--white);
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+.imagePaneAuthor { font-size: 13px; color: var(--gold); letter-spacing: 0.1em; }
+
+.formPane {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 24px;
+  background: var(--cream);
+  overflow-y: auto;
+}
+.formWrap { width: 100%; max-width: 420px; }
+
+.backLink {
+  display: inline-block;
+  font-size: 12px;
+  color: var(--ink-light);
+  margin-bottom: 32px;
+  letter-spacing: 0.04em;
+  transition: color var(--transition);
+}
+.backLink:hover { color: var(--ink); }
+
+.formHeader { margin-bottom: 32px; }
+.eyebrow { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-dark); margin-bottom: 8px; }
+.formTitle { font-family: var(--font-display); font-size: 36px; font-weight: 400; color: var(--ink); margin-bottom: 8px; }
+.formSub { font-size: 14px; color: var(--ink-light); }
+.authLink { color: var(--gold-dark); text-decoration: underline; text-underline-offset: 2px; }
+
+.form { display: flex; flex-direction: column; gap: 18px; }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.field { display: flex; flex-direction: column; gap: 6px; }
+.label {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input {
+  height: 46px;
+  padding: 0 14px;
+  font-size: 14px;
+  color: var(--ink);
+  border: 1px solid var(--cream-dark);
+  border-radius: var(--radius);
+  background: var(--white);
+  transition: border-color var(--transition);
+  outline: none;
+}
+.input:focus { border-color: var(--ink); }
+.input::placeholder { color: var(--ink-light); }
+.inputError { border-color: var(--red) !important; }
+.fieldError { font-size: 11px; color: var(--red); }
+
+.forgotLink { font-size: 11px; color: var(--ink-light); text-decoration: underline; text-underline-offset: 2px; font-weight: 400; text-transform: none; letter-spacing: 0; }
+.forgotLink:hover { color: var(--ink); }
+
+.errorBox {
+  padding: 12px 14px;
+  background: #FFF1F1;
+  border: 1px solid var(--red);
+  border-radius: var(--radius);
+  font-size: 13px;
+  color: var(--red);
+}
+
+.submitBtn {
+  height: 48px;
+  background: var(--ink);
+  color: var(--white);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background var(--transition);
+  margin-top: 4px;
+}
+.submitBtn:hover:not(:disabled) { background: var(--ink-mid); }
+.submitBtn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.spinner {
+  width: 18px; height: 18px;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-top-color: var(--white);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.dividerRow {
+  text-align: center;
+  position: relative;
+  margin: 20px 0;
+  color: var(--ink-light);
+  font-size: 12px;
+}
+.dividerRow::before {
+  content: '';
+  position: absolute;
+  top: 50%; left: 0; right: 0;
+  height: 1px;
+  background: var(--cream-dark);
+}
+.dividerRow span {
+  position: relative;
+  background: var(--cream);
+  padding: 0 12px;
+}
+
+.guestBtn {
+  width: 100%;
+  height: 44px;
+  font-size: 13px;
+  color: var(--ink-mid);
+  border: 1px solid var(--cream-dark);
+  border-radius: var(--radius);
+  letter-spacing: 0.04em;
+  transition: border-color var(--transition), color var(--transition);
+}
+.guestBtn:hover { border-color: var(--ink-mid); color: var(--ink); }
+
+.terms {
+  font-size: 11px;
+  color: var(--ink-light);
+  line-height: 1.6;
+}
+.terms a { color: var(--gold-dark); text-decoration: underline; text-underline-offset: 2px; }
+
+@media (max-width: 768px) {
+  .page { grid-template-columns: 1fr; }
+  .imagePane { display: none; }
+}
