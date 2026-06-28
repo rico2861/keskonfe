@@ -35,7 +35,7 @@ export const products = [
     originalPrice: 52000,
     description: 'Blazer à épaules légèrement structurées, revers crantés, doublure en viscose. Coupe intemporelle issue de la collection permanente — le vêtement qui redéfinit le vestiaire professionnel.',
     images: [
-      'https://images.unsplash.com/photo-1594938298603-1cafc703e8a6?w=800&q=80',
+      'https://images.unsplash.com/photo-1551537482-f2075a1d41f2?w=800&q=80',
       'https://images.unsplash.com/photo-1551537482-f2075a1d41f2?w=800&q=80',
     ],
     sizes: ['36','38','40','42','44'],
@@ -69,7 +69,7 @@ export const products = [
     originalPrice: null,
     description: 'Eau de parfum 100ml. Une composition orientale lumineuse : notes de tête bergamote et cardamome, cœur de rose de Taïf et oud, fond de santal et musc blanc. Longue tenue, 8–10 heures.',
     images: [
-      'https://images.unsplash.com/photo-1541643600914-78b084683702?w=800&q=80',
+      'https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?w=800&q=80',
       'https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?w=800&q=80',
     ],
     sizes: ['50ml', '100ml', '200ml'],
@@ -138,7 +138,7 @@ export const products = [
     description: 'Carré 90×90 cm en twill de soie, imprimé à la main selon la technique de sérigraphie artisanale Kèskonfè. Motif botanique revisité, 24 coloris disponibles.',
     images: [
       'https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=800&q=80',
-      'https://images.unsplash.com/photo-1617627143233-3f5e2e1a13a5?w=800&q=80',
+      'https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=800&q=80',
     ],
     sizes: ['90×90 cm'],
     colors: ['Bleu marine', 'Rouge', 'Vert'],

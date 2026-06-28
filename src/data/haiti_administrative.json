@@ -1,0 +1,620 @@
+{
+  "pays": "Haïti",
+  "departements": [
+    {
+      "id": "OUE",
+      "nom": "Ouest",
+      "chef_lieu": "Port-au-Prince",
+      "communes": [
+        {
+          "nom": "Port-au-Prince",
+          "quartiers": [
+            "Bel Air", "Centre-Ville", "Champs de Mars", "Turgeau", "Pacot", "Canapé Vert",
+            "Bourdon", "Lalue", "Péan", "Christ-Roi", "Bas Peu de Chose", "Carrefour-Feuilles",
+            "Martissant", "Fontamara", "Cité Soleil", "La Saline", "Portail Léogâne",
+            "Nazon", "Avenue Poupelard"
+          ]
+        },
+        {
+          "nom": "Delmas",
+          "quartiers": [
+            "Delmas 2", "Delmas 3", "Delmas 6", "Delmas 9", "Delmas 12", "Delmas 17",
+            "Delmas 18", "Delmas 19", "Delmas 24", "Delmas 27", "Delmas 30", "Delmas 31",
+            "Delmas 32", "Delmas 33", "Delmas 40", "Delmas 41", "Delmas 48", "Delmas 60",
+            "Delmas 66", "Delmas 73", "Delmas 75", "Delmas 83", "Delmas 84", "Delmas 95",
+            "Autoroute de Delmas", "Solino"
+          ]
+        },
+        {
+          "nom": "Cité Soleil",
+          "quartiers": [
+            "Boston", "Bois Neuf", "Cité Plus", "Simon", "Brooklyn",
+            "Drouillard", "Wharf Jérémie", "Fort Dimanche",
+            "Cite Divine", "Ti Ayiti", "Solino Nord"
+          ]
+        },
+        {
+          "nom": "Tabarre",
+          "quartiers": [
+            "Tabarre 27", "Tabarre 41", "Tabarre 49", "Lizon", "Barbancourt",
+            "Bon Repos", "Pernier", "Clercine", "Noailles", "Morne à Cabri"
+          ]
+        },
+        {
+          "nom": "Pétion-Ville",
+          "quartiers": [
+            "Centre de Pétion-Ville", "Canapé Vert", "Juvenat", "Desprez", "Laboule",
+            "Thomassin 26", "Thomassin 28", "Thomassin 32", "Thomassin 33",
+            "Montagne Noire", "Boutilliers", "Fermathe", "Kenscoff", "Furcy",
+            "Morne Calvaire", "Morne Bijou", "Bois Verna", "Frères", "Pétion-Ville Centre",
+            "Rue Grégoire", "Carrefour Péan", "Mais Gaté", "Turgeau"
+          ]
+        },
+        {
+          "nom": "Kenscoff",
+          "quartiers": ["Kenscoff bourg", "Furcy", "Decayette", "Forêt des Pins", "Pin Forestier"]
+        },
+        {
+          "nom": "Fonds Verrettes",
+          "quartiers": ["Fonds Verrettes bourg", "Mapou", "Grand Gosier"]
+        },
+        {
+          "nom": "Croix-des-Bouquets",
+          "quartiers": [
+            "Croix-des-Bouquets bourg", "Pernier", "Clercine", "Canaan", "Onaville",
+            "Jerusalem", "Corail", "Morne à Cabri", "Pont Sondé", "Village Solidarité"
+          ]
+        },
+        {
+          "nom": "Thomazeau",
+          "quartiers": ["Thomazeau bourg", "Fond Parisien"]
+        },
+        {
+          "nom": "Ganthier",
+          "quartiers": ["Ganthier bourg", "Galette Chambon", "Fond Parisien"]
+        },
+        {
+          "nom": "Léogâne",
+          "quartiers": [
+            "Léogâne centre", "Carrefour Dufort", "Gressier", "Dufort", "Mathieu",
+            "Source Matelas"
+          ]
+        },
+        {
+          "nom": "Gressier",
+          "quartiers": ["Gressier bourg", "Léogâne Est"]
+        },
+        {
+          "nom": "Grand-Goâve",
+          "quartiers": ["Grand-Goâve bourg", "Carrefour Charles"]
+        },
+        {
+          "nom": "Petit-Goâve",
+          "quartiers": ["Petit-Goâve centre", "Fond des Nègres", "Bellevue la Montagne"]
+        },
+        {
+          "nom": "Arcahaie",
+          "quartiers": ["Arcahaie bourg", "Cabaret", "Montrouis", "Luly", "Balan"]
+        },
+        {
+          "nom": "Cabaret",
+          "quartiers": ["Cabaret bourg", "Titanyen", "Noailles", "Pont-Rouge"]
+        }
+      ]
+    },
+    {
+      "id": "SUD",
+      "nom": "Sud",
+      "chef_lieu": "Les Cayes",
+      "communes": [
+        {
+          "nom": "Les Cayes",
+          "quartiers": [
+            "Centre-Ville Cayes", "Savane Diane", "Bordeau", "Fond Cochon",
+            "Ti Paris", "Gelée", "Belvédère", "Maniche route", "Torbeck route", "Port Salut route"
+          ]
+        },
+        {
+          "nom": "Torbeck",
+          "quartiers": ["Torbeck bourg", "Chantal", "Arniquet"]
+        },
+        {
+          "nom": "Chantal",
+          "quartiers": ["Chantal bourg", "Ducis"]
+        },
+        {
+          "nom": "Arniquet",
+          "quartiers": ["Arniquet bourg"]
+        },
+        {
+          "nom": "Camp-Perrin",
+          "quartiers": ["Camp-Perrin bourg", "Maniche", "Ravine du Sud"]
+        },
+        {
+          "nom": "Aquin",
+          "quartiers": ["Aquin bourg", "Saint-Louis du Sud", "Baie des Flamands"]
+        },
+        {
+          "nom": "Saint-Louis du Sud",
+          "quartiers": ["Saint-Louis du Sud bourg"]
+        },
+        {
+          "nom": "Cavaillon",
+          "quartiers": ["Cavaillon bourg", "Lacombe"]
+        },
+        {
+          "nom": "Côteaux",
+          "quartiers": ["Côteaux bourg", "Port-à-Piment", "Roche-à-Bateau"]
+        },
+        {
+          "nom": "Port-à-Piment",
+          "quartiers": ["Port-à-Piment bourg"]
+        },
+        {
+          "nom": "Roche-à-Bateau",
+          "quartiers": ["Roche-à-Bateau bourg"]
+        },
+        {
+          "nom": "Chardonnières",
+          "quartiers": ["Chardonnières bourg", "Tiburon", "Les Anglais"]
+        },
+        {
+          "nom": "Tiburon",
+          "quartiers": ["Tiburon bourg"]
+        },
+        {
+          "nom": "Les Anglais",
+          "quartiers": ["Les Anglais bourg"]
+        },
+        {
+          "nom": "Port-Salut",
+          "quartiers": ["Port-Salut bourg", "Saint-Jean du Sud", "Île-à-Vache"]
+        },
+        {
+          "nom": "Saint-Jean du Sud",
+          "quartiers": ["Saint-Jean du Sud bourg"]
+        },
+        {
+          "nom": "Île-à-Vache",
+          "quartiers": ["Kay Kok", "Madame Bernard", "Palmiste à Vin"]
+        }
+      ]
+    },
+    {
+      "id": "SDE",
+      "nom": "Sud-Est",
+      "chef_lieu": "Jacmel",
+      "communes": [
+        {
+          "nom": "Jacmel",
+          "quartiers": [
+            "Centre Jacmel", "La Gosseline", "Fond Pitite", "Bord de Mer",
+            "Carrefour Bélizaire", "Marbial", "Cayes-Jacmel route", "Côte de Fer route"
+          ]
+        },
+        {
+          "nom": "Cayes-Jacmel",
+          "quartiers": ["Cayes-Jacmel bourg", "Marigot frontière"]
+        },
+        {
+          "nom": "La Vallée de Jacmel",
+          "quartiers": ["La Vallée bourg", "Séguin"]
+        },
+        {
+          "nom": "Marigot",
+          "quartiers": ["Marigot bourg", "Grand-Gosier frontière"]
+        },
+        {
+          "nom": "Bainet",
+          "quartiers": ["Bainet bourg", "Côte de Fer", "Caille"]
+        },
+        {
+          "nom": "Côte de Fer",
+          "quartiers": ["Côte de Fer bourg"]
+        },
+        {
+          "nom": "Caille",
+          "quartiers": ["Caille bourg"]
+        },
+        {
+          "nom": "Belle-Anse",
+          "quartiers": ["Belle-Anse bourg", "Thiotte", "Grand-Gosier"]
+        },
+        {
+          "nom": "Thiotte",
+          "quartiers": ["Thiotte bourg"]
+        },
+        {
+          "nom": "Grand-Gosier",
+          "quartiers": ["Grand-Gosier bourg"]
+        }
+      ]
+    },
+    {
+      "id": "NIV",
+      "nom": "Nippes",
+      "chef_lieu": "Miragoâne",
+      "communes": [
+        {
+          "nom": "Miragoâne",
+          "quartiers": [
+            "Miragoâne centre", "Fond des Nègres route", "Petite Rivière de Nippes route",
+            "Carrefour Zaboca", "Baie de Miragoâne"
+          ]
+        },
+        {
+          "nom": "Plaisance du Sud",
+          "quartiers": ["Plaisance du Sud bourg"]
+        },
+        {
+          "nom": "Fond-des-Nègres",
+          "quartiers": ["Fond-des-Nègres bourg", "Anse-à-Veau route"]
+        },
+        {
+          "nom": "Arnaud",
+          "quartiers": ["Arnaud bourg"]
+        },
+        {
+          "nom": "Petite Rivière de Nippes",
+          "quartiers": ["Petite Rivière de Nippes bourg"]
+        },
+        {
+          "nom": "Anse-à-Veau",
+          "quartiers": ["Anse-à-Veau bourg", "Baradères", "Grand-Boucan"]
+        },
+        {
+          "nom": "Baradères",
+          "quartiers": ["Baradères bourg"]
+        },
+        {
+          "nom": "Grand-Boucan",
+          "quartiers": ["Grand-Boucan bourg"]
+        }
+      ]
+    },
+    {
+      "id": "GDA",
+      "nom": "Grande-Anse",
+      "chef_lieu": "Jérémie",
+      "communes": [
+        {
+          "nom": "Jérémie",
+          "quartiers": [
+            "Centre Jérémie", "Bord de Mer Jérémie", "Sainte-Hélène",
+            "Moron", "Dame Marie route", "Chambellan route", "Anse d'Hainault route"
+          ]
+        },
+        {
+          "nom": "Moron",
+          "quartiers": ["Moron bourg"]
+        },
+        {
+          "nom": "Abricots",
+          "quartiers": ["Abricots bourg", "Bonbon"]
+        },
+        {
+          "nom": "Anse-d'Hainault",
+          "quartiers": ["Anse-d'Hainault bourg", "Dame Marie route"]
+        },
+        {
+          "nom": "Dame Marie",
+          "quartiers": ["Dame Marie bourg"]
+        },
+        {
+          "nom": "Les Irois",
+          "quartiers": ["Les Irois bourg"]
+        },
+        {
+          "nom": "Pestel",
+          "quartiers": ["Pestel bourg", "Roseaux", "Corail"]
+        },
+        {
+          "nom": "Roseaux",
+          "quartiers": ["Roseaux bourg"]
+        },
+        {
+          "nom": "Corail",
+          "quartiers": ["Corail bourg", "Chambellan"]
+        },
+        {
+          "nom": "Chambellan",
+          "quartiers": ["Chambellan bourg"]
+        }
+      ]
+    },
+    {
+      "id": "NOR",
+      "nom": "Nord",
+      "chef_lieu": "Cap-Haïtien",
+      "communes": [
+        {
+          "nom": "Cap-Haïtien",
+          "quartiers": [
+            "Centre-Ville Cap", "Bord de Mer", "Carénage", "Vertières",
+            "Bas-Limbé route", "Rue 1 à Rue 24", "Boulevard du Cap",
+            "Cité Shada", "Petite Anse", "Haut du Cap", "Mapou",
+            "Fort Saint-Michel", "Paultre", "Morne Rouge", "Bassin Rodo"
+          ]
+        },
+        {
+          "nom": "Quartier Morin",
+          "quartiers": ["Quartier Morin bourg", "Milot route"]
+        },
+        {
+          "nom": "Limonade",
+          "quartiers": ["Limonade bourg", "Caracol", "Terrier Rouge frontière"]
+        },
+        {
+          "nom": "Milot",
+          "quartiers": ["Milot bourg", "Sans-Souci", "Citadelle route"]
+        },
+        {
+          "nom": "Grande Rivière du Nord",
+          "quartiers": ["Grande Rivière du Nord bourg", "Saint-Raphaël route"]
+        },
+        {
+          "nom": "Acul-du-Nord",
+          "quartiers": ["Acul-du-Nord bourg", "Limbé route", "Plaine du Nord"]
+        },
+        {
+          "nom": "Limbé",
+          "quartiers": ["Limbé bourg", "Bas-Limbé", "Plaisance route"]
+        },
+        {
+          "nom": "Bas-Limbé",
+          "quartiers": ["Bas-Limbé bourg"]
+        },
+        {
+          "nom": "Plaine-du-Nord",
+          "quartiers": ["Plaine-du-Nord bourg"]
+        },
+        {
+          "nom": "Saint-Raphaël",
+          "quartiers": ["Saint-Raphaël bourg", "Dondon", "Bahon"]
+        },
+        {
+          "nom": "Dondon",
+          "quartiers": ["Dondon bourg"]
+        },
+        {
+          "nom": "Bahon",
+          "quartiers": ["Bahon bourg"]
+        },
+        {
+          "nom": "Borgne",
+          "quartiers": ["Borgne bourg", "Port-Margot"]
+        },
+        {
+          "nom": "Port-Margot",
+          "quartiers": ["Port-Margot bourg"]
+        }
+      ]
+    },
+    {
+      "id": "NEO",
+      "nom": "Nord-Est",
+      "chef_lieu": "Fort-Liberté",
+      "communes": [
+        {
+          "nom": "Fort-Liberté",
+          "quartiers": [
+            "Fort-Liberté centre", "Ferrier route", "Mombin Crochu route",
+            "Bord de Mer Fort-Liberté"
+          ]
+        },
+        {
+          "nom": "Ferrier",
+          "quartiers": ["Ferrier bourg", "Ouanaminthe frontière"]
+        },
+        {
+          "nom": "Perches",
+          "quartiers": ["Perches bourg"]
+        },
+        {
+          "nom": "Ouanaminthe",
+          "quartiers": [
+            "Ouanaminthe centre", "Quartier Bord de Rivière", "Dajabon frontière",
+            "Capotille", "Mont-Organisé route"
+          ]
+        },
+        {
+          "nom": "Capotille",
+          "quartiers": ["Capotille bourg"]
+        },
+        {
+          "nom": "Mont-Organisé",
+          "quartiers": ["Mont-Organisé bourg"]
+        },
+        {
+          "nom": "Vallières",
+          "quartiers": ["Vallières bourg", "Carice", "Mombin Crochu"]
+        },
+        {
+          "nom": "Carice",
+          "quartiers": ["Carice bourg"]
+        },
+        {
+          "nom": "Mombin Crochu",
+          "quartiers": ["Mombin Crochu bourg"]
+        }
+      ]
+    },
+    {
+      "id": "NOV",
+      "nom": "Nord-Ouest",
+      "chef_lieu": "Port-de-Paix",
+      "communes": [
+        {
+          "nom": "Port-de-Paix",
+          "quartiers": [
+            "Port-de-Paix centre", "Bord de Mer Port-de-Paix", "Bassin Bleu route",
+            "Chansolme", "Saint-Louis du Nord route"
+          ]
+        },
+        {
+          "nom": "Saint-Louis du Nord",
+          "quartiers": ["Saint-Louis du Nord bourg", "Anse-à-Foleur"]
+        },
+        {
+          "nom": "Bassin-Bleu",
+          "quartiers": ["Bassin-Bleu bourg"]
+        },
+        {
+          "nom": "Chansolme",
+          "quartiers": ["Chansolme bourg"]
+        },
+        {
+          "nom": "Île de la Tortue",
+          "quartiers": ["Basse-Terre", "Palmiste", "Pointe Ouest"]
+        },
+        {
+          "nom": "Môle-Saint-Nicolas",
+          "quartiers": ["Môle-Saint-Nicolas bourg", "Bombardopolis route"]
+        },
+        {
+          "nom": "Bombardopolis",
+          "quartiers": ["Bombardopolis bourg"]
+        },
+        {
+          "nom": "Jean-Rabel",
+          "quartiers": ["Jean-Rabel bourg", "Ti Port-de-Paix"]
+        }
+      ]
+    },
+    {
+      "id": "ART",
+      "nom": "Artibonite",
+      "chef_lieu": "Gonaïves",
+      "communes": [
+        {
+          "nom": "Gonaïves",
+          "quartiers": [
+            "Centre Gonaïves", "Raboteau", "Jubilé", "La Chapelle",
+            "Bord de Mer Gonaïves", "Fossette", "Carrefour Shada",
+            "Rue Liberté", "Ennery route", "Saint-Marc route"
+          ]
+        },
+        {
+          "nom": "Ennery",
+          "quartiers": ["Ennery bourg", "Plaisance frontière"]
+        },
+        {
+          "nom": "Terre-Neuve",
+          "quartiers": ["Terre-Neuve bourg"]
+        },
+        {
+          "nom": "Gros-Morne",
+          "quartiers": ["Gros-Morne bourg", "Pilate frontière"]
+        },
+        {
+          "nom": "Saint-Marc",
+          "quartiers": [
+            "Saint-Marc centre", "Bord de Mer Saint-Marc", "Carrefour Pignon",
+            "Verrettes route", "Desdunes", "Montrouis"
+          ]
+        },
+        {
+          "nom": "Verrettes",
+          "quartiers": ["Verrettes bourg", "La Chapelle"]
+        },
+        {
+          "nom": "Desdunes",
+          "quartiers": ["Desdunes bourg"]
+        },
+        {
+          "nom": "L'Estère",
+          "quartiers": ["L'Estère bourg"]
+        },
+        {
+          "nom": "Montrouis",
+          "quartiers": ["Montrouis bourg", "Arcahaie frontière"]
+        },
+        {
+          "nom": "Dessalines",
+          "quartiers": ["Dessalines bourg", "Lizon", "Grande Saline"]
+        },
+        {
+          "nom": "Grande Saline",
+          "quartiers": ["Grande Saline bourg"]
+        },
+        {
+          "nom": "Petite Rivière de l'Artibonite",
+          "quartiers": ["Petite Rivière de l'Artibonite bourg", "Crête-à-Pierrot"]
+        },
+        {
+          "nom": "Marmelade",
+          "quartiers": ["Marmelade bourg", "Saint-Michel de l'Attalaye route"]
+        },
+        {
+          "nom": "Saint-Michel de l'Attalaye",
+          "quartiers": ["Saint-Michel de l'Attalaye bourg", "Cerca Carvajal"]
+        },
+        {
+          "nom": "Cerca Carvajal",
+          "quartiers": ["Cerca Carvajal bourg"]
+        },
+        {
+          "nom": "Plaisance",
+          "quartiers": ["Plaisance bourg", "Pilate"]
+        },
+        {
+          "nom": "Pilate",
+          "quartiers": ["Pilate bourg"]
+        }
+      ]
+    },
+    {
+      "id": "CEV",
+      "nom": "Centre",
+      "chef_lieu": "Hinche",
+      "communes": [
+        {
+          "nom": "Hinche",
+          "quartiers": [
+            "Hinche centre", "Bord de Rivière Hinche", "Quartier Militaire",
+            "Maïssade route", "Thomassique route", "Mirebalais route"
+          ]
+        },
+        {
+          "nom": "Thomassique",
+          "quartiers": ["Thomassique bourg", "Cerca la Source"]
+        },
+        {
+          "nom": "Maïssade",
+          "quartiers": ["Maïssade bourg"]
+        },
+        {
+          "nom": "Cerca la Source",
+          "quartiers": ["Cerca la Source bourg"]
+        },
+        {
+          "nom": "Mirebalais",
+          "quartiers": [
+            "Mirebalais centre", "Saut d'Eau", "Lascahobas route",
+            "Pont Sondé route", "Carrefour Pignon"
+          ]
+        },
+        {
+          "nom": "Saut-d'Eau",
+          "quartiers": ["Saut-d'Eau bourg", "Ville Bonheur"]
+        },
+        {
+          "nom": "Lascahobas",
+          "quartiers": ["Lascahobas bourg", "Savanette"]
+        },
+        {
+          "nom": "Savanette",
+          "quartiers": ["Savanette bourg"]
+        },
+        {
+          "nom": "Belladère",
+          "quartiers": ["Belladère bourg", "Cornillon/Grand-Bois"]
+        },
+        {
+          "nom": "Cornillon/Grand-Bois",
+          "quartiers": ["Cornillon bourg", "Grand-Bois"]
+        }
+      ]
+    }
+  ]
+}
